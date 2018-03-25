@@ -4,7 +4,7 @@ title: First post
 date: 2018-03-25 20:18:03
 ---
 
-### This is a first post ###
+#### This is a first post ####
 This will be a first post. We will see how it looks like to have a blog or website on 'Github pages'.
 I am a little bit sceptical but we will see :confused:...
 
@@ -16,4 +16,17 @@ function fancyAlert(arg) {
   }
 }
 ```
-
+Some code with C#:
+```csharp
+for (int i = 0 ; i < 10; i++)
+{
+// Code to execute.
+}
+```
+And some code without C#
+```
+for (int i = 0 ; i < 10; i++)
+{
+// Code to execute.
+}
+```
