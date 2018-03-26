@@ -30,6 +30,14 @@ for (int i = 0 ; i < 10; i++)
 // Code to execute.
 }
 ```
+This one will be some strange syntax highlight attempt
+{{ "{% highlight javascript " }}%}  
+/* Some pointless Javascript */
+var rawr = ["r", "a", "w", "r"];
+{{ "{% endhighlight " }}%} 
+
+Here inline code `code(run).fast().then().quit();`
+
 The very long block of code would look like below for C#:
 ```csharp
 /*
