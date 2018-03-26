@@ -1,12 +1,26 @@
+$code-background-color: #f6f8fa;
+$code-border-color: $code-background-color;
+$code-border-radious: 3px;
+$code-font-size: 90%;
 
+/* Single line block */
+code.highlighter-rouge {
+  background-color: $code-background-color;
+  adding: 0.2em 0.2em 0.2em 0.2em;
+  border: 1px solid $code-border-color;
+  border-radius: $code-border-radious;
+  font-size: $code-font-size;
+}
+
+/* Multiline block */
 pre.highlight {
-  background-color: #f6f8fa;
+  background-color: $code-background-color;
   padding: 7px 7px 7px 7px;
-  border: 1px solid #f6f8fa;
+  border: 1px solid $code-border-color;
   margin: 0px 0 10px 0;
   overflow: auto;
-  border-radius: 3px;
-  font-size: 90%;
+  border-radius: $code-border-radious;
+  font-size: $code-font-size;
   line-height: 1.2;
 }
 
