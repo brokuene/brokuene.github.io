@@ -6,7 +6,7 @@ $code-font-size: 90%;
 /* Single line block */
 code.highlighter-rouge {
   background-color: $code-background-color;
-  adding: 0.2em 0.2em 0.2em 0.2em;
+  padding: 0.2em 0.2em 0.2em 0.2em;
   border: 1px solid $code-border-color;
   border-radius: $code-border-radious;
   font-size: $code-font-size;
