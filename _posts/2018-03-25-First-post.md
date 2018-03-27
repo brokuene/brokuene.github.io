@@ -2,6 +2,7 @@
 layout: post
 title: First post
 date: 2018-03-25 20:18:03
+tags: [js, c#]
 ---
 
 #### This is a first post ####
