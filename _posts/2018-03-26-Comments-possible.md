@@ -3,6 +3,7 @@ layout: post
 title: Comments are possible now
 date: 2018-03-26 12:45
 comments: true
+tags: [cats]
 ---
 
 This post is created for only one purpose. There is need to test if disqus comments work or not. Well we will see. 
