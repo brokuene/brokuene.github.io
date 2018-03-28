@@ -17,10 +17,10 @@ layout: default
         {% capture words %}{{ post.content | number_of_words }}{% endcapture %}
         {% unless words contains "-" %}
           {% capture read_time %}{{ words | plus: 250 | divided_by: 250 }}{% endcapture %}
-          {{ read_time | prepend: "&nbsp;—&nbsp; takes " | append: " minute" }}
           {% unless read_time == "1" %}
-            {{ "s" }}
+            {% assign minutes_plural = "s" %}
           {% endunless %}
+          {{ read_time | prepend: "&nbsp;—&nbsp; takes " | append: " minute" | append: minutes_plural }}
         {% endunless %}
       </span>
       
