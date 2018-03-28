@@ -13,6 +13,13 @@ layout: default
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <span class="post-words">
+        {% capture words %}{{ post.content | number_of_words }}{% endcapture %}
+        {% unless words contains "-" %}
+          {{ words | plus: 250 | divided_by: 250 | prepend: "&nbsp;—&nbsp; takes " | append: " minutes" }}
+        {% endunless %}
+      </span>
+      
     </article>
   {% endfor %}
 </div>
