@@ -13,7 +13,7 @@ layout: default
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      <span class="post-words">
+      <span class="takes-to-read">
         {% capture words %}{{ post.content | number_of_words }}{% endcapture %}
         {% unless words contains "-" %}
           {{ words | plus: 250 | divided_by: 250 | prepend: "&nbsp;—&nbsp; takes " | append: " minutes" }}
