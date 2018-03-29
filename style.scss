@@ -265,15 +265,23 @@ nav {
     margin-top: 10px;
   }
 
-  .read-more {
+	.read-more {
     text-transform: uppercase;
     font-size: 15px;
   }
-
+	
 	.takes-to-read {
 		font-size: 90%;
-    font-family: 'Lato';
-    color: $darkGray;
+		font-family: 'Lato';
+		color: $darkGray;
+	}
+	
+	.date {
+		color: $gray;
+		white-space: nowrap;
+		float: right;
+		font-size: 90%;
+		font-family: 'Lato';
 	}
 }
 
