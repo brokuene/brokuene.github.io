@@ -15,7 +15,7 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       <span class="takes-to-read">
         {% capture words %}{{ post.content | number_of_words | minus: 250 }}{% endcapture %}
-        {% unless words contains "???" %}
+        {% unless words contains "-" %}
           {% capture read_time %}{{ words | plus: 250 | divided_by: 250 }}{% endcapture %}
           {% assign minutes_plural = "s" %}
           {% if read_time == "1" %}
